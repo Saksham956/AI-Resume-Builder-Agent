@@ -1,0 +1,12 @@
+.env
+state.db
+__pycache__/
+*.pyc
+generated_resumes/
+.venv/
+venv/
+*.log
+*.docx
+*.pdf
+.vscode/
+.idea/
