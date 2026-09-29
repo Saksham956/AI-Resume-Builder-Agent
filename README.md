@@ -1,6 +1,4 @@
-Yes. Paste this **entire content** into your `README.md`, replacing everything currently inside it.
 
-````markdown
 # AI Resume Builder Agent
 
 An AI-powered job monitoring and resume tailoring system that automatically processes placement and job opportunity emails, analyzes job descriptions, generates role-specific resume content, validates the output, and delivers the generated resume through Telegram.
@@ -13,7 +11,6 @@ The system monitors a Gmail inbox for unread placement/job opportunity emails, e
 
 ## Workflow
 
-```text
 Gmail / Placement Email
           |
           v
@@ -39,7 +36,6 @@ Gmail / Placement Email
           |
           v
       Generated Resume
-````
 
 ## Key Features
 
@@ -99,7 +95,6 @@ Gmail / Placement Email
 
 ## Project Structure
 
-```text
 AI-Resume-Builder-Agent/
 │
 ├── main.py
@@ -112,7 +107,7 @@ AI-Resume-Builder-Agent/
 ├── .gitignore
 ├── start_agent.bat
 └── start_agent_hidden.vbs
-```
+
 
 ## Component Responsibilities
 
@@ -148,7 +143,7 @@ Provides a background execution option for running the agent without keeping a v
 
 Create a local `.env` file containing the required credentials:
 
-```env
+`env
 GOOGLE_API_KEY=your_google_api_key
 GEMINI_MODEL=gemini-3.5-flash-lite
 
@@ -160,7 +155,7 @@ TELEGRAM_CHAT_ID=your_telegram_chat_id
 
 MAX_EMAILS=1
 BACKOFF=3600
-```
+``
 
 **Never commit the `.env` file to GitHub.**
 
@@ -170,13 +165,13 @@ Sensitive credentials are intentionally excluded from version control using `.gi
 
 Clone the repository:
 
-```bash
+`bash
 git clone https://github.com/Saksham956/AI-Resume-Builder-Agent.git
-```
+``
 
 Enter the project directory:
 
-```bash
+``bash
 cd AI-Resume-Builder-Agent
 ```
 
@@ -316,4 +311,3 @@ API keys, email credentials, Telegram credentials, and generated private resumes
 ````
 
 
-**Important:** don't put your real `GOOGLE_API_KEY`, Gmail password, Telegram token, or any other credentials into the README.
